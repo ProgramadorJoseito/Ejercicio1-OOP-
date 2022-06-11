@@ -1,15 +1,13 @@
+#!/usr/bin/python3
+import sys
 import controller
 
 
-
 def main():
-    #vControlador = controller.axiomaTerminalcontroller()
-    #vControlador.run()
-    
-    vControlador = controller.axiomaTerminalController()
+    print(sys.version)
+    vControlador = controller.terminalController()
     vControlador.run()
-    
-
 
 if __name__ == '__main__':
     main()
+    
